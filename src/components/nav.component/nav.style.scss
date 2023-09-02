@@ -1,0 +1,61 @@
+.naviagtion-container{
+    height: 100px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    .navigation-ancor{
+        text-decoration: none;
+        color: #000;
+        margin-bottom: 2.5rem;
+        font-size: 32px;
+        border: 1px solid black;
+        padding: 12px;
+        border-radius: 1rem;
+    }
+    .navigation-ancor:hover{
+        background-color: #000;
+        cursor: pointer;
+        color: white;
+    }
+    .naviagtion-img{
+        display: block;
+    }
+    .logo{
+        background-color: white;
+    }
+    .social-media-logos{
+        background-color: white;
+        width: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        .insta-img{
+            background-color: white;
+        }
+        .insta-img:hover{
+            cursor: pointer;
+        }
+        .fb-img{
+            background-color: white;
+        } 
+        .fb-img:hover{
+            cursor: pointer;
+        }
+                     
+    }
+    .navigation-links{
+        display: none;
+        .navigation-link{
+            display: none;
+            text-decoration: none;
+            color: #000;
+        }
+        .navigation-link:hover{
+            cursor: pointer;
+        }
+    }
+}

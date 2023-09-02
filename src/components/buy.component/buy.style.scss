@@ -1,0 +1,38 @@
+.buy-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 860px;
+    width: 100%;
+    background-color: white;
+    .buy-section-text-container{
+        width: 80%;
+        .buy-section-text-h3{
+            color: #7000FF;
+        }
+        .buy-section-text-h1{
+            color: #2B0955;
+        }
+        .buy-section-span{
+            font-weight: bolder;
+            color: #7000FF;
+        }
+        .buy-button{
+            margin-top: 2rem;
+            height: 46px;
+            width: 186px;
+            background-color: #FBC508;
+            color: #2B0955;
+            border-radius: .5rem;
+            border: none;
+            font-weight: bolder;
+        }
+        .buy-button:hover{
+            cursor: pointer;
+            background-color: #2B0955;
+            color: #FBC508;
+            border: 1px solid #2B0955;
+        }
+    }
+}

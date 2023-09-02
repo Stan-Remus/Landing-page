@@ -1,0 +1,311 @@
+.App{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    .app-container{
+        height: 3650px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (min-width: 960px) {
+    .App{
+        .app-container{
+            .naviagtion-container{
+                .naviagtion-img{
+                    display: none;
+                }
+                .navigation-links{
+                    width: 40%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    flex-direction: row;
+                    .navigation-link{
+                        width: 33%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                        margin: 0 1.5rem;
+                    }
+                }
+            }
+            .home-container{
+                height: 700px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: row;
+                width: 100%;
+                .home-text-container{
+                    margin-top: 20vw;
+                    height: 100%;
+                    display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                    width: 60%;
+                    .home-title{
+                        font-size: 3rem;
+                        width: 80%;
+                    }
+                    .home-text{
+                        font-size: 1.8rem;
+                        line-height: 2.2rem;
+                        width: 80%;
+                        margin: 0 auto;
+                    }
+                    .home-button-container{
+                        width: 80%;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        .buy-button{
+                            margin-top: 3rem;
+                            height: 46px;
+                            width: 186px;
+                            background-color: #FBC508;
+                            color: #2B0955;
+                            border-radius: .5rem;
+                            border: none;
+                        }
+                        .know-more-button{
+                            margin-left: 2rem;
+                            margin-top: 3rem;
+                            height: 46px;
+                            width: 186px;
+                            border: 1px solid white;
+                            background-color: #2B0955;
+                            color: white;
+                            border-radius: .5rem;
+                        }
+                        
+                    }
+                }
+                .home-img-container{
+                    width: 40%;
+                    overflow: hidden;
+                    .gradient-blur{
+                        position: absolute;
+                        right: 0;
+                        width: 50%;
+                        height: auto;
+                        display: none;
+                    }
+                    .man-burger-img{
+                        position: static;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                
+            }
+            .buy-section-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                height: 500px;
+                .buy-section-text-container{
+                    width: 35%;
+                    margin-right: 5%;
+                    margin-bottom: 8rem;
+                }
+                .buy-section-img-container{
+                    width: 20%;
+                }
+            }
+            .contact-section-container{
+                .contact-bottom-container{
+                    flex-direction: row;
+                    .contact-bottom-left-container{
+                        align-items: flex-start;
+                        width: 35vw;
+                        font-size: 18px;
+                        .contact-whatsapp{
+                            margin-top: 2rem;
+                            width: 270px;
+                        }
+                    }
+                    .contact-bottom-right-container{
+                        margin-top: 6rem;
+                        margin-left: 6rem;
+                        width: 40%;
+                    }
+                }
+                
+            }
+            .footer-container{
+                .footer-top-container{
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 100%;
+                    .footer-logo-container{
+                        width: 20%;
+                        margin-top: 4rem;
+                    }
+                    .footer-media-container{
+                        width: 60%;
+                        .footer-links-container{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            flex-direction: row;
+                            width: 80%;
+                        }
+                    }
+                }
+                .footer-bottom-container{
+                    .footer-email-container{
+                       flex-direction: row; 
+                       justify-content: flex-start;
+                       width: 80%;
+                       align-items: flex-start;
+                       .footer-p{
+                        margin-top: 3rem;
+                       }
+                       .footer-input-box{
+                        width: 40%;
+                        margin-left: 3rem;
+                       }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 960px) {
+    .App{
+        .app-container{
+            height: 3800px;
+            .home-container{
+                .home-img-container{
+                .man-burger-img{
+                    top: -8rem;
+                    left: 10rem;
+                    width: 65%;    
+             }
+             .gradient-blur{
+                top: -200px;
+             }
+             }
+            }
+            .footer-container{
+                height: 820px;
+            }
+
+                }
+            }
+        }
+        @media (max-width: 740px) {
+            .App{
+                .app-container{
+                    .home-container{
+                        .home-img-container{
+                        .man-burger-img{
+                            top: -80px;
+                            width: 80%;
+                            left: 2rem;     
+                     }
+                     }
+                    }
+        
+                        }
+                    }
+                }
+
+                @media (max-width: 640px) {
+                    .App{
+                        .app-container{
+                            height: 3900px;
+                            .home-container{
+                                .home-text-container{
+                                    width: 70%;
+                                }
+                                .home-img-container{
+                                .man-burger-img{
+                                    width: 80%;
+                                    top: -20px;
+                                    margin-left: 5rem;       
+                             }
+                             .gradient-blur{
+                                top: -440px;
+                                
+                            }}
+                            }
+                            .contact-section-container{
+                                height: 1100px;
+                            }
+                
+                                }
+                            }
+                        }
+                        @media (max-width: 555px) {
+                            .App{
+                                .app-container{
+                                    .home-container{
+                                        .home-img-container{
+                                        .man-burger-img{
+                                            top: 30px; 
+                                            left: 0;    
+                                     }
+                                     }
+                                    }
+                                    .contact-section-container{
+                                        .contact-bottom-container{
+                                            .contact-bottom-right-container{
+                                                width: 80%;
+                                            }
+                                        }
+                                        
+                                    }
+                                        }
+                                    }
+                                }
+                        @media (max-width: 500px) {
+                            .App{
+                                .app-container{
+                                    height: 4300px;
+                                    .home-container{
+                                        .home-img-container{
+                                        .man-burger-img{
+                                            top: 60px; 
+                                            left: 3rem;
+                                            margin-left: 0;    
+                                     }
+                                     .gradient-blur{
+                                        position: relative;
+                                        top: -200px;
+                                     }
+                                     }
+                                    }
+                                    .contact-section-container{
+                                        height: 1200px;
+                                        .contact-bottom-container{
+                                            .contact-bottom-right-container{
+                                                width: 80%;
+                                            }
+                                        }
+                                        
+                                    }
+                                    .footer-container{
+                                        .footer-bottom-container{
+                                            .footer-email-container{
+                                                justify-content: center;
+                                                align-items: center;
+                                                .footer-input-box{
+                                                    width: 10rem;
+                                                }
+                                            }
+                                        }
+                                    }
+                                        }
+                                    }
+                                }

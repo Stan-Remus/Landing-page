@@ -1,0 +1,86 @@
+.about-container{
+    width: 100%;
+    height: 860px;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    .about-main-text-container{
+        margin-top: 6rem;
+        width: 80%;
+        .about-main-title{
+            color: #2B0955;
+        }
+    }
+    .about-cards-container{
+        height: 200px;
+        width: 100%;
+        background-color: #2B0955;
+        color: white;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid blue;
+        
+    }
+    .carpusel-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 100%;
+        position: relative;
+        top: 20px;
+        .carousel2{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            .card2{
+                position: relative;
+                top: 70px;
+                margin-left: 2.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 80%;
+                width: 80%;
+                background-color: white;
+                border-radius: 1rem;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                .target-img{
+                    position: relative;
+                    top: -50px;
+                    
+                }
+                .extra-margin{
+                    bottom: 7rem !important;
+                }
+                .about-card-h1{
+                    position: relative;
+                    bottom: 4.5rem;
+                    align-self: start;
+                    margin-left: 10%;
+                }
+                .about-card-p{
+                    position: relative;
+                    bottom: 5rem;
+                    width: 80%;
+                }
+                .about-plus-img{
+                    position: absolute;
+                    bottom: 1.6rem;
+                    right: 1.6rem;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
