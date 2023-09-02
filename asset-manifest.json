@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Landing-page/static/css/main.66f96722.css",
+    "main.js": "/Landing-page/static/js/main.bf48cb37.js",
+    "static/js/787.5f2bb462.chunk.js": "/Landing-page/static/js/787.5f2bb462.chunk.js",
+    "static/media/gradient-blur.png": "/Landing-page/static/media/gradient-blur.816ea812f17ad3f750d9.png",
+    "static/media/man-burger.png": "/Landing-page/static/media/man-burger.89deb9f3c7ca77c56056.png",
+    "static/media/Group_16.png": "/Landing-page/static/media/Group_16.c8ec51a8ef12242b994f.png",
+    "static/media/Ethereum_Coin.png": "/Landing-page/static/media/Ethereum_Coin.f53f33a282a3375d69ce.png",
+    "static/media/Target.png": "/Landing-page/static/media/Target.6e6bd5af724ecfcd9e0f.png",
+    "static/media/Credit_Card.png": "/Landing-page/static/media/Credit_Card.48199376bcb55ce03045.png",
+    "static/media/revicons.eot": "/Landing-page/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Landing-page/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/Chat.png": "/Landing-page/static/media/Chat.a9ed18ccbb67e7c12bd2.png",
+    "static/media/revicons.woff": "/Landing-page/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Landing-page/index.html",
+    "main.66f96722.css.map": "/Landing-page/static/css/main.66f96722.css.map",
+    "main.bf48cb37.js.map": "/Landing-page/static/js/main.bf48cb37.js.map",
+    "787.5f2bb462.chunk.js.map": "/Landing-page/static/js/787.5f2bb462.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66f96722.css",
+    "static/js/main.bf48cb37.js"
+  ]
+}
